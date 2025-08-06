@@ -26,7 +26,7 @@ export default function Home() {
       {/* Header */}
       <header className="flex items-center justify-between px-6 py-4 max-w-7xl mx-auto">
         <div className="text-2xl font-bold text-gray-900 cursor-pointer hover:text-gray-700 transition-colors">
-          alignd
+          Alnotha
         </div>
         <div className="flex items-center gap-6">
           <a href="#about" className="text-gray-700 hover:text-gray-900 transition-colors">
@@ -61,12 +61,12 @@ export default function Home() {
         </div>
 
         <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-          Get your team on<br />the same page.
+          Slot Machine tracking made simple.
         </h1>
 
         <p className="text-lg text-gray-600 mb-8 max-w-2xl mx-auto leading-relaxed">
-          Alignd turns strategy into weekly action—keeping everyone clear on priorities,
-          playing to their strengths, and showing where effort is going.
+          Alontha turns machine data into actionable insights — keeping you focused on performance 
+          and showing exactly where revenue is coming from.
         </p>
 
         <button
@@ -77,7 +77,7 @@ export default function Home() {
         </button>
       </section>
 
-      {/* Airplane Hero Image */}
+      {/* Airplane Hero Image
       <section className="px-6 mb-16">
         <div className="max-w-6xl mx-auto">
           <div className="relative w-full h-[400px] md:h-[500px] rounded-2xl overflow-hidden">
@@ -88,23 +88,23 @@ export default function Home() {
             />
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Testimonial Section */}
       <section className="max-w-4xl mx-auto px-6 py-16 text-center">
         <div className="text-3xl text-gray-900 mb-8 font-light leading-relaxed">
-          "I believe Alignd will transform how teams in ambitious, high-stakes environments deliver on their goals."
+          "I believe Alnotha will transform how teams in ambitious, high-stakes environments deliver on their goals."
         </div>
 
         <div className="flex items-center justify-center gap-4">
           <img
-            src="https://ext.same-assets.com/952798608/211308186.png"
+            src="https://alyantharani.com/assets/images/my-avatar.png"
             alt="Kyle Clark"
             className="w-12 h-12 rounded-full"
           />
           <div className="text-left">
-            <div className="font-semibold text-gray-900">Kyle Clark</div>
-            <div className="text-sm text-gray-600">CEO, BETA TECHNOLOGIES</div>
+            <div className="font-semibold text-gray-900">Alyan Tharani</div>
+            <div className="text-sm text-gray-600">CEO, Lead Developer</div>
           </div>
         </div>
       </section>
@@ -142,7 +142,7 @@ export default function Home() {
           </h2>
 
           <p className="text-lg text-gray-300 text-center max-w-3xl mx-auto">
-            Alignd turns vision into weekly execution by aligning teams, sharpening focus, and tapping everyone's best skills.
+            Alnotha turns vision into weekly execution by aligning teams, sharpening focus, and tapping everyone's best skills.
           </p>
         </div>
       </section>
@@ -220,7 +220,7 @@ export default function Home() {
       <footer id="about" className="border-t border-gray-200 py-16 px-6">
         <div className="max-w-6xl mx-auto">
           <div className="mb-8">
-            <div className="text-2xl font-bold text-gray-900 mb-2">alignd</div>
+            <div className="text-2xl font-bold text-gray-900 mb-2">Alnotha</div>
             <p className="text-gray-600">Turn strategy into action.</p>
           </div>
 
@@ -257,7 +257,7 @@ export default function Home() {
           </div>
 
           <div className="mt-12 pt-8 border-t border-gray-200 text-sm text-gray-500">
-            © 2025 InspireHQ, LLC
+            © 2025 Alnotha, LLC
           </div>
         </div>
       </footer>
@@ -268,7 +268,7 @@ export default function Home() {
           <div className="bg-white rounded-lg p-8 max-w-md w-full">
             <h3 className="text-2xl font-bold mb-4">Schedule a Demo</h3>
             <p className="text-gray-600 mb-6">
-              Ready to see Alignd in action? We'd love to show you how our platform can help your team get aligned and stay focused.
+              Ready to see Alnotha in action? We'd love to show you how our platform can help your team get aligned and stay focused.
             </p>
             <div className="space-y-4">
               <button
@@ -292,7 +292,7 @@ export default function Home() {
       {showLoginModal && (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4">
           <div className="bg-white rounded-lg p-8 max-w-md w-full">
-            <h3 className="text-2xl font-bold mb-4">Log In to Alignd</h3>
+            <h3 className="text-2xl font-bold mb-4">Log In to Alnotha</h3>
             <div className="space-y-4">
               <input
                 type="email"
