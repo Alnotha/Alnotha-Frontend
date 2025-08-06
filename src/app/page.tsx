@@ -272,7 +272,7 @@ export default function Home() {
             </p>
             <div className="space-y-4">
               <button
-                onClick={() => window.open('https://calendly.com/alnotha/30min', '_blank')}
+                onClick={() => window.open('https://calendly.com/alnotha/45min', '_blank')}
                 className="w-full bg-black text-white py-3 rounded-lg hover:bg-gray-800 transition-colors"
               >
                 Open Calendly Scheduler
