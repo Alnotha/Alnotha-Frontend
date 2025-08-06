@@ -93,7 +93,7 @@ export default function Home() {
       {/* Testimonial Section */}
       <section className="max-w-4xl mx-auto px-6 py-16 text-center">
         <div className="text-3xl text-gray-900 mb-8 font-light leading-relaxed">
-          "I believe Alnotha will transform how teams in ambitious, high-stakes environments deliver on their goals."
+          I believe Alnotha will elevate how slot operators manage machines, optimize performance, and drive results in real time.
         </div>
 
         <div className="flex items-center justify-center gap-4">
@@ -272,7 +272,7 @@ export default function Home() {
             </p>
             <div className="space-y-4">
               <button
-                onClick={() => window.open('https://calendly.com/demo', '_blank')}
+                onClick={() => window.open('https://calendly.com/alnotha/30min', '_blank')}
                 className="w-full bg-black text-white py-3 rounded-lg hover:bg-gray-800 transition-colors"
               >
                 Open Calendly Scheduler
