@@ -112,10 +112,10 @@ export default function Home() {
       {/* Company Logos */}
       <section className="max-w-6xl mx-auto px-6 py-16">
         <div className="flex items-center justify-center gap-12 opacity-60 flex-wrap">
-          <div className="text-lg font-semibold text-gray-500">BETA</div>
-          <div className="text-lg font-bold text-gray-500">DEKA</div>
-          <div className="text-lg font-light text-gray-500">Dynamic Aviation</div>
-          <img src="https://ext.same-assets.com/952798608/907997980.png" alt="Bay State Milling" className="h-8" />
+          <div className="text-lg font-semibold text-gray-500"></div>
+          <div className="text-lg font-bold text-gray-500"></div>
+          <div className="text-lg font-light text-gray-500"></div>
+          <div className="text-lg font-light text-gray-500"></div>
         </div>
       </section>
 
@@ -138,155 +138,148 @@ export default function Home() {
           </div>
 
           <h2 className="text-4xl md:text-5xl font-bold mb-6 text-center">
-            Simplify strategy, create transparency,<br />and unlock team potential.
+            Create transparency,<br />and increase financial security.
           </h2>
 
           <p className="text-lg text-gray-300 text-center max-w-3xl mx-auto">
-            Alnotha turns vision into weekly execution by aligning teams, sharpening focus, and tapping everyone's best skills.
+            Alnotha turns data into winning insights. Keeping business owners informed, sharpening strategy through live insights.
           </p>
         </div>
       </section>
+{/* Feature Sections */}
+<section className="max-w-4xl mx-auto px-6 py-16 space-y-20">
+  {/* Feature 1: Centralized Slot Data */}
+  <div>
+    <div className="text-sm font-medium text-gray-900 mb-2">Centralized Slot Insights</div>
+    <h3 className="text-3xl font-bold text-gray-900 mb-6">
+      All your slot machine stats in one place — quick access, faster decisions.
+    </h3>
 
-      {/* Feature Sections */}
-      <section className="max-w-4xl mx-auto px-6 py-16 space-y-20">
-        {/* Feature 1: Shared Strategy */}
-        <div>
-          <div className="text-sm font-medium text-gray-900 mb-2">Shared Strategy, Clear Priorities</div>
-          <h3 className="text-3xl font-bold text-gray-900 mb-6">
-            One plan, shared by all — so priorities are clear and decisions are fast.
-          </h3>
+    <div className="mb-6">
+      <h4 className="font-semibold text-gray-900 mb-2">Key Benefits</h4>
+      <p className="text-gray-700">
+        Instantly see performance trends, payout history, and pprofit models for every machine.
+      </p>
+    </div>
 
-          <div className="mb-6">
-            <h4 className="font-semibold text-gray-900 mb-2">Key Benefits</h4>
-            <p className="text-gray-700">
-              Clear roadmap, faster progress, and the ability to adapt when things change.
-            </p>
-          </div>
+    <div>
+      <h4 className="font-semibold text-gray-900 mb-2">Why It Matters</h4>
+      <p className="text-gray-700">
+        Operators who track slot data in real time gain a sense of financial certainty.
+     </p>
+    </div>
+  </div>
 
-          <div>
-            <h4 className="font-semibold text-gray-900 mb-2">Why It Matters</h4>
-            <p className="text-gray-700">
-              50% of middle managers can't name their company's top priorities, and less than 5% of employees understand them. — <a href="https://hbr.org" target="_blank" rel="noopener noreferrer" className="underline hover:text-gray-900">HBR</a>
-            </p>
-          </div>
-        </div>
+  {/* Feature 2: Player Engagement */}
+  <div>
+    <div className="text-sm font-medium text-gray-900 mb-2">Maximize Player Engagement</div>
+    <h3 className="text-3xl font-bold text-gray-900 mb-6">
+      Maximize slot machine profitability and engagement through the use of monthly data and win rates.
+    </h3>
 
-        {/* Feature 2: Team Strengths */}
-        <div>
-          <div className="text-sm font-medium text-gray-900 mb-2">Surface your Team's Strengths</div>
-          <h3 className="text-3xl font-bold text-gray-900 mb-6">
-            Match every skill to high-impact work — unlocking each person's best contribution and fulfillment.
-          </h3>
+    <div className="mb-6">
+      <h4 className="font-semibold text-gray-900 mb-2">Key Benefits</h4>
+      <p className="text-gray-700">
+        Financial security of cash revenue from slot machines, giving you a clear understanding of how much money you have and how much you’re projected to have by the end of the month.      
+      </p>
+    </div>
+  </div>
 
-          <div className="mb-6">
-            <h4 className="font-semibold text-gray-900 mb-2">Key Benefits</h4>
-            <p className="text-gray-700">
-              Insight into team strengths, smoother feedback loops, and smarter use of existing knowledge and interests.
-            </p>
-          </div>
+  {/* Feature 3: Real-Time Alerts */}
+  <div>
+    <div className="text-sm font-medium text-gray-900 mb-2">Real-Time Machine Alerts</div>
+    <h3 className="text-3xl font-bold text-gray-900 mb-6">
+      Never miss a critical update — machine health and performance at a glance.
+    </h3>
 
-          <div>
-            <h4 className="font-semibold text-gray-900 mb-2">Why It Matters</h4>
-            <p className="text-gray-700">
-              Employees stay when they can use their skills and passions — it's a top retention driver. - <a href="https://mckinsey.com" target="_blank" rel="noopener noreferrer" className="underline hover:text-gray-900">McKinsey</a>
-            </p>
-          </div>
-        </div>
+    <div className="mb-6">
+      <h4 className="font-semibold text-gray-900 mb-2">Key Benefits</h4>
+      <p className="text-gray-700">
+        Reduce downtime with instant notifications for malfunctions, low ticket paper, or irregular payouts.
+      </p>
+    </div>
 
-        {/* Feature 3: Weekly Action */}
-        <div>
-          <div className="text-sm font-medium text-gray-900 mb-2">Weekly Action, Visible to All</div>
-          <h3 className="text-3xl font-bold text-gray-900 mb-6">
-            Shared focus every week — higher accountability, zero silos.
-          </h3>
+    <div>
+      <h4 className="font-semibold text-gray-900 mb-2">Why It Matters</h4>
+      <p className="text-gray-700">
+        Every hour of downtime can cost hundreds in lost revenue — early detection keeps your floor running smoothly.
+      </p>
+    </div>
+  </div>
+</section>
 
-          <div className="mb-6">
-            <h4 className="font-semibold text-gray-900 mb-2">Key Benefits</h4>
-            <p className="text-gray-700">
-              Crystal-clear tasks and outcomes, more accountability, and open communication at every level.
-            </p>
-          </div>
+{/* Footer */}
+<footer id="about" className="border-t border-gray-200 py-16 px-6">
+  <div className="max-w-6xl mx-auto">
+    <div className="mb-8">
+      <div className="text-2xl font-bold text-gray-900 mb-2">Alnotha</div>
+      <p className="text-gray-600">Track, analyze, and optimize your slot machine performance.</p>
+    </div>
 
-          <div>
-            <h4 className="font-semibold text-gray-900 mb-2">Why It Matters</h4>
-            <p className="text-gray-700">
-              75% of cross-functional teams fail to meet goals due to misalignment and poor coordination. — <a href="https://hbr.org" target="_blank" rel="noopener noreferrer" className="underline hover:text-gray-900">HBR</a>
-            </p>
-          </div>
-        </div>
-      </section>
+    <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+      {/* <div>
+        <h4 className="font-semibold text-gray-900 mb-4">Company</h4>
+        <ul className="space-y-2 text-gray-600">
+          <li><a href="#" className="hover:text-gray-900 transition-colors">Home</a></li>
+          <li><a href="#" className="hover:text-gray-900 transition-colors">Blog</a></li>
+          <li><a href="#" className="hover:text-gray-900 transition-colors">Privacy</a></li>
+          <li><a href="#" className="hover:text-gray-900 transition-colors">Terms</a></li>
+          <li><a href="#" className="hover:text-gray-900 transition-colors">Security</a></li>
+          <li><a href="#about" className="hover:text-gray-900 transition-colors">About</a></li>
+        </ul>
+      </div> */}
 
-      {/* Footer */}
-      <footer id="about" className="border-t border-gray-200 py-16 px-6">
-        <div className="max-w-6xl mx-auto">
-          <div className="mb-8">
-            <div className="text-2xl font-bold text-gray-900 mb-2">Alnotha</div>
-            <p className="text-gray-600">Turn strategy into action.</p>
-          </div>
+      <div>
+        <h4 className="font-semibold text-gray-900 mb-4">Use Cases</h4>
+        <ul className="space-y-2 text-gray-600">
+          <li><a href="#" className="hover:text-gray-900 transition-colors">Casino Operators</a></li>
+          <li><a href="#" className="hover:text-gray-900 transition-colors">Gaming Analysts</a></li>
+          <li><a href="#" className="hover:text-gray-900 transition-colors">Slot Technicians</a></li>
+          <li><a href="#" className="hover:text-gray-900 transition-colors">Local Businesses</a></li>
+        </ul>
+      </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-            <div>
-              <h4 className="font-semibold text-gray-900 mb-4">Company</h4>
-              <ul className="space-y-2 text-gray-600">
-                <li><a href="#" className="hover:text-gray-900 transition-colors">Home</a></li>
-                <li><a href="#" className="hover:text-gray-900 transition-colors">Blog</a></li>
-                <li><a href="#" className="hover:text-gray-900 transition-colors">Privacy</a></li>
-                <li><a href="#" className="hover:text-gray-900 transition-colors">Terms</a></li>
-                <li><a href="#" className="hover:text-gray-900 transition-colors">Security</a></li>
-                <li><a href="#about" className="hover:text-gray-900 transition-colors">About</a></li>
-              </ul>
-            </div>
+      <div>
+        <h4 className="font-semibold text-gray-900 mb-4">Get in touch</h4>
+        <ul className="space-y-2 text-gray-600">
+          <li><button onClick={() => alert('Contact form would open here')} className="hover:text-gray-900 transition-colors text-left">Send a message</button></li>
+          <li><button onClick={handleGetDemo} className="hover:text-gray-900 transition-colors text-left">Schedule demo</button></li>
+        </ul>
+      </div>
+    </div>
 
-            <div>
-              <h4 className="font-semibold text-gray-900 mb-4">Use Cases</h4>
-              <ul className="space-y-2 text-gray-600">
-                <li><a href="#" className="hover:text-gray-900 transition-colors">Business Leaders</a></li>
-                <li><a href="#" className="hover:text-gray-900 transition-colors">Program Leads</a></li>
-                <li><a href="#" className="hover:text-gray-900 transition-colors">R&D + Manufacturing</a></li>
-                <li><a href="#" className="hover:text-gray-900 transition-colors">Strategy Planners</a></li>
-              </ul>
-            </div>
+    <div className="mt-12 pt-8 border-t border-gray-200 text-sm text-gray-500">
+      © 2025 Alnotha, Inc.
+    </div>
+  </div>
+</footer>
 
-            <div>
-              <h4 className="font-semibold text-gray-900 mb-4">Get in touch</h4>
-              <ul className="space-y-2 text-gray-600">
-                <li><button onClick={() => alert('Contact form would open here')} className="hover:text-gray-900 transition-colors text-left">Send a message</button></li>
-                <li><button onClick={handleGetDemo} className="hover:text-gray-900 transition-colors text-left">Schedule demo</button></li>
-              </ul>
-            </div>
-          </div>
+{/* Demo Modal */}
+{showDemoModal && (
+  <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4">
+    <div className="bg-white rounded-lg p-8 max-w-md w-full">
+      <h3 className="text-2xl font-bold mb-4">Schedule a Demo</h3>
+      <p className="text-gray-600 mb-6">
+        Ready to see SlotView in action? Discover how our platform can help you boost slot performance and maximize revenue.
+      </p>
+      <div className="space-y-4">
+        <button
+          onClick={() => window.open('https://calendly.com/slotview/45min', '_blank')}
+          className="w-full bg-black text-white py-3 rounded-lg hover:bg-gray-800 transition-colors"
+        >
+          Open Calendly Scheduler
+        </button>
+        <button
+          onClick={handleModalClose}
+          className="w-full border border-gray-300 py-3 rounded-lg hover:bg-gray-50 transition-colors"
+        >
+          Close
+        </button>
+      </div>
+    </div>
+  </div>
+)}
 
-          <div className="mt-12 pt-8 border-t border-gray-200 text-sm text-gray-500">
-            © 2025 Alnotha, LLC
-          </div>
-        </div>
-      </footer>
-
-      {/* Demo Modal */}
-      {showDemoModal && (
-        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4">
-          <div className="bg-white rounded-lg p-8 max-w-md w-full">
-            <h3 className="text-2xl font-bold mb-4">Schedule a Demo</h3>
-            <p className="text-gray-600 mb-6">
-              Ready to see Alnotha in action? We'd love to show you how our platform can help your team get aligned and stay focused.
-            </p>
-            <div className="space-y-4">
-              <button
-                onClick={() => window.open('https://calendly.com/alnotha/45min', '_blank')}
-                className="w-full bg-black text-white py-3 rounded-lg hover:bg-gray-800 transition-colors"
-              >
-                Open Calendly Scheduler
-              </button>
-              <button
-                onClick={handleModalClose}
-                className="w-full border border-gray-300 py-3 rounded-lg hover:bg-gray-50 transition-colors"
-              >
-                Close
-              </button>
-            </div>
-          </div>
-        </div>
-      )}
 
       {/* Login Modal */}
       {showLoginModal && (
